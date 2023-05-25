@@ -35,6 +35,6 @@ The self-explanatory notebook can be found at ```notebooks/notebook.ipynb``.
 
 
 ## Credits
-- [CVPR2021] Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes (CVF Link)
+- [CVPR2021](https://arxiv.org/abs/2104.01601) Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes (CVF Link)
 - [Skoltech DL course](https://github.com/oseledets/dl2023) for the great DL course;
 - [Weights & Biases](https://wandb.ai) for machine learning developer tools;
