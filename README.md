@@ -8,7 +8,6 @@ When shooting fast-moving objects on a camera with a rolling shutter, defects ap
 
 ### Abstract
 The idea of our project to transform images captured by rolling shutter cameras to global shutter images . Rolling shutter cameras capture images by scanning a scene over a period of time, resulting in distorted images with motion artifacts. To address this issue, global shutter cameras capture images instantaneously. The goal of the project is to evaluate the appearance of distorted objects and generate an image, as if obtained from a global shutter camera.  
-As part of the project, we propose to first generate synthetic data, and as the project is further developed, proceed to training on experimental data obtained by recording from two types of cameras. As a possible solution, we consider end2end neural networks and ways to evaluate the convolution kernel. Additionally, a range of metrics such as MSE, PSNR, and SSIM will be used to evaluate the quality of the transformed images.
 This approach is expected to improve the image quality and reduce the motion artifacts, making it applicable in various fields, including robotics, self driving, and computer vision.
 
 ### Datasets
@@ -43,8 +42,6 @@ Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl
 
 
 ### Instructions
-###### Python Scripts for Local Machines
-The self-explanatory notebook can be found at ```notebooks/Run_experiment.ipynb``.
 
 ###### Notebooks for Collab
 The self-explanatory notebook can be found at ```notebooks/Run_experiment_Colab.ipynb``.
