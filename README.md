@@ -1,8 +1,7 @@
 # Rolling to Global shutter transformer 
 
-The repository contains the code implementation of the final project of the Skoltech Deep Learning 2023 course. 
+The repository contains the code implementation of the final project of the Skoltech Deep Learning 2023 course. As a basis, we took the article "Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes". Then we reproduced the results of the original article and changed the architecture of one of the model blocks to achieve better model quality.
 
-## Using stacking to improve neural optimal transport based style transfer models.
 
 ### Problem statement 
 When shooting fast-moving objects on a camera with a rolling shutter, defects appear in the image that distort the true position of objects.
@@ -36,5 +35,6 @@ The self-explanatory notebook can be found at ```notebooks/notebook.ipynb``.
 
 
 ## Credits
+- [CVPR2021] Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes (CVF Link)
 - [Skoltech DL course](https://github.com/oseledets/dl2023) for the great DL course;
 - [Weights & Biases](https://wandb.ai) for machine learning developer tools;
