@@ -20,6 +20,14 @@ The data samples  was collected using the beam-splitter acquisition system as be
 ### Example of results
 
 Examples
+Here is the result with the original architecture
+<p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
+
+Here is the result with the modified architecture
+<p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
+
+Here are the metrics:
+<p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
 
 ## Code usage instructions
 ### Prerequisites
