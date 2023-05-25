@@ -11,27 +11,35 @@ The idea of our project to transform images captured by rolling shutter cameras 
 As part of the project, we propose to first generate synthetic data, and as the project is further developed, proceed to training on experimental data obtained by recording from two types of cameras. As a possible solution, we consider end2end neural networks and ways to evaluate the convolution kernel. Additionally, a range of metrics such as MSE, PSNR, and SSIM will be used to evaluate the quality of the transformed images.
 This approach is expected to improve the image quality and reduce the motion artifacts, making it applicable in various fields, including robotics, self driving, and computer vision.
 
-### Datasets and Preprocessing
+### Datasets
 
-Dataset description 
+We use BS-RSCD, the first dataset used for real-world RSCD task, using a well-designed beam-splitter acquisition system. A RS camera and a GS camera are physically aligned to capture RS distorted and blurry as well as GS sharp video pairs simultaneously. 
+The data samples  was collected using the beam-splitter acquisition system as below:
+![image](https://drive.google.com/uc?export=view&id=1JkAsNkiaWZ5eZ8KSQdMENrxTBPEfrFen) 
 
 ### Example of results
 
 Examples
 
-## Repository structure and code usage instructions
-### Structure
+## Code usage instructions
+### Prerequisites
+Install the dependent packages:
 
-Structure 
+```bash
+python -m venv .venv
+source .venv/bin/activate
+sh install.sh
+```
+
+Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl1W37i87n3nFIgmZh2_/view?usp=sharing)
+
 
 ### Instructions
 ###### Python Scripts for Local Machines
-How to run experiment and train model
+The self-explanatory notebook can be found at ```notebooks/Run_experiment.ipynb``.
 
 ###### Notebooks for Collab
-The self-explanatory notebook can be found at ```notebooks/notebook.ipynb``.
-
-## Requirements
+The self-explanatory notebook can be found at ```notebooks/Run_experiment_Colab.ipynb``.
 
 
 ## Credits
