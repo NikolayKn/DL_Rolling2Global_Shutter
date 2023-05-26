@@ -46,6 +46,9 @@ Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl
 ###### Notebooks for Collab
 The self-explanatory notebook can be found at ```notebooks/Run_experiment_Colab.ipynb``.
 
+###### Notebooks for Local Machines
+The self-explanatory notebook can be found at ```notebooks/Run_experiment_Local.ipynb``.
+
 ## Team contribution
 - Nikolay Kashin - Preparing GitHub Repo
 - Dawit Sefiw - General reviewing and coding
