@@ -46,6 +46,13 @@ Download lmdb files of [BS-RSCD](https://drive.google.com/file/d/1j4gxN28KmDA7Yl
 ###### Notebooks for Collab
 The self-explanatory notebook can be found at ```notebooks/Run_experiment_Colab.ipynb``.
 
+## Team contribution
+- Nikolay Kashin - Preparing GitHub Repo
+- Dawit Sefiw - General reviewing and coding
+- Igor Smirnov - Debugging and running experiments
+- Mekan Hojayev - Debugging and running experiments
+- Emil Alkin - Debugging code, preparing presentation
+
 
 ## Credits
 - [CVPR2021](https://arxiv.org/abs/2104.01601) Towards Rolling Shutter Correction and Deblurring in Dynamic Scenes (CVF Link)
