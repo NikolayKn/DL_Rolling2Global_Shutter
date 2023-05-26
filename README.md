@@ -23,10 +23,10 @@ Here is the result with the original architecture
 <p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
 
 Here is the result with the modified architecture
-<p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
+<p align="center"><img src="pictures/unet_3video.jpg" width="550" /></p>
 
 Here are the metrics:
-<p align="center"><img src="pictures/jcd_3video.jpg" width="550" /></p>
+<p align="center"><img src="pictures/plots.jpg" width="550" /></p>
 
 ## Code usage instructions
 ### Prerequisites
